@@ -73,7 +73,7 @@ function app(){
               <div className="row align-items-center pb-3 ">
                 <div className="col-md-6">           
               <span className="badge mb-2 text-success  mt-4" style={{ backgroundColor: "#dee8d7"}}>
-        👋 Hello, I'm
+        👋 Hello, I'm react
       </span>
        <h6 className="display-6 fw-bold">
         Sayoojya
