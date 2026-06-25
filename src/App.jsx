@@ -94,8 +94,11 @@ function app(){
                 through clean and efficient code.
                 </p>
 
-            <button type="button" className="btn btn-outline-success m-1">Download Resume</button>
-            <button type="button" className="btn btn-outline-success m-1">
+                <a
+                href="/Sayoojya2026.pdf"
+                download="Sayoojya_Resume.pdf"
+                className="btn btn-outline-success m-1btn btn-outline-success m-1">Download Resume</a>
+                    <button type="button" className="btn btn-outline-success m-1">
                   Contact Me
                 </button>
             </div>
