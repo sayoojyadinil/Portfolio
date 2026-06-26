@@ -11,7 +11,7 @@ import {
   FaBriefcase,
   FaEnvelope,
   FaGithub,
-  FaLinkedin,FaMapMarkerAlt, FaCircle,FaReact, FaBootstrap
+  FaLinkedin,FaMapMarkerAlt, FaCircle,FaReact, FaBootstrap,FaPhoneAlt
 } from "react-icons/fa";
 import {useRef} from "react";
 function app(){
@@ -46,6 +46,7 @@ function app(){
               <FaUser className="me-2" />
               About
             </button>
+          
             <button className="btn btn-outline-success" onClick={() => scrollToSection(educationRef)}>
               <FaGraduationCap className="me-2" />
               Education
@@ -62,9 +63,9 @@ function app(){
                <FaEnvelope className="me-2" />
               Contact
             </button>
-         
-           
-        </ListGroup>
+
+         </ListGroup>
+        
         
       </div>
       </div>
@@ -82,9 +83,23 @@ function app(){
         React JS Developer
       </h6>
       <p style={{fontSize: 14}} className="text-muted">
+    <FaEnvelope color="green"/> <b>sayooojya@gmail.com </b><FaPhoneAlt color="green" size={10} /> <b> 9072809858</b>
+  </p>
+  <p style={{fontSize:15, backgroundColor:"#dee8d7"}} className="badge mb-2 text-success">
+  <a
+    href="https://github.com/sayoojyadinil"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-decoration-none text-dark"
+  >
+    <FaGithub color="green" className="me-2" style={{fontSize:18}} />
+    My GitHub Profile
+  </a>
+</p>
+      <p style={{fontSize: 14}} className="text-muted">
     <FaMapMarkerAlt color="green" /> Kerala, India <FaCircle color="green" size={10} />  Available for Work
   </p>
-
+  
  
               <p className="mt-4" style={{fontSize:14, textAlign:"justify", lineHeight: "1.8"}}>
                 Hi, I'm Sayoojya, a React JS Developer passionate 
@@ -93,14 +108,13 @@ function app(){
                 I enjoy turning ideas into interactive digital experiences 
                 through clean and efficient code.
                 </p>
+               
 
                 <a
                 href="/Sayoojya2026.pdf"
                 download="Sayoojya_Resume.pdf"
                 className="btn btn-outline-success m-1btn btn-outline-success m-1">Download Resume</a>
-                    <button type="button" className="btn btn-outline-success m-1">
-                  Contact Me
-                </button>
+                    
             </div>
             <div className="col-md-6 pt-5">
             <img src={homeimg} alt="homeimg" className="rectangle" height="300" width="375" />
@@ -118,9 +132,7 @@ function app(){
 
           <div
             className="text-white me-3"
-            style={{ width: "60px", height: "60px" }}
-            
-          >
+            style={{ width: "60px", height: "60px" }}>
             
           </div>
 
@@ -157,9 +169,7 @@ function app(){
             className="text-white"
             style={{ width: "60px", height: "60px" }}
           >
-            
           </div>
-
           <div>
             <h6 className="text-success fw" > <FaBriefcase className="me-2 text-success " />
               Full Stack Developer
